@@ -231,10 +231,10 @@ public class SimulatedAnnealing {
         TourManager.addCity(city20);
 
         // Set initial temp
-        double temp = 10000;
+        double temp = 100000;
 
         // Cooling rate
-        double coolingRate = 0.003;
+        double coolingRate = 0.009;
 
         // Initialize intial solution
         Tour currentSolution = new Tour();
